@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#card-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: black;
+}
+
+.card {
+    height: 80%;
+    width: 400px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: .5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px red;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.card h1, .card p {
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 36px
+}
+
+.card p, .card a {
+    font-size: 22px;
+    margin: 6px 4px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(113, 1, 1);
+}
+
+.email-me a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CONTACT SECTION */
+
+#contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 600px;
+    height: 80%;
+    padding: 20px;
+}
+
+.form h2 {
+    margin: 0 auto 30px auto;
+}
+
+form input, form textarea{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+
+form input {
+    height: 3rem;
+    color: #000;
+    border: 1px solid black;
+}
+
+form textarea {
+    height: 10rem;
+}
+
+form button {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    height: 3rem;
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
